@@ -21,7 +21,7 @@ public class LogManager : ILogManager
         var serializedLogs = JsonSerializer.Deserialize<IEnumerable<LogEntry>>(logFile);
         _logs = new EnumerableQuery<ILogEntry>(serializedLogs);
     }
-    
+
     public IEnumerable<ILogEntry> Get(GetByFilterRequest request)
     {
         var skipCount = request.GetSkipCount();
@@ -46,12 +46,12 @@ public class LogManager : ILogManager
 
     public IEnumerable<ILogEntry> Get(GetByTimeRequest request)
     {
-        var filteredLogs = _logs.FilterByYear(request.Year);
-        filteredLogs = filteredLogs.FilterByMonth(request.Month);
-        filteredLogs = filteredLogs.FilterByDay(request.Day);
-        filteredLogs = filteredLogs.FilterByHour(request.Hour);
-        filteredLogs = filteredLogs.FilterByMinute(request.Minute);
-        filteredLogs = filteredLogs.FilterBySecond(request.Second);
+        var filteredLogs = _logs.FilterByYear(request.Year)
+            .FilterByMonth(request.Month)
+            .FilterByDay(request.Day)
+            .FilterByHour(request.Hour)
+            .FilterByMinute(request.Minute)
+            .FilterBySecond(request.Second);
 
         var skipCount = request.GetSkipCount();
         var logs = filteredLogs.Skip(skipCount).Take(request.PageSize);

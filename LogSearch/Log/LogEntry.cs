@@ -7,7 +7,7 @@ public class LogEntry : ILogEntry
 {
     public DateTime Timestamp { get; set; }
 
-    public virtual LogEventLevel Level { get; set; }
+    public LogEventLevel Level { get; set; }
 
     public Guid AppId { get; set; }
 
