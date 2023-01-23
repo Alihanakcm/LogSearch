@@ -1,0 +1,12 @@
+/home/alihan/RiderProjects/Unitfly/LogSearch/bin/Debug/net6.0/LogSearch.deps.json
+/home/alihan/RiderProjects/Unitfly/LogSearch/bin/Debug/net6.0/LogSearch.dll
+/home/alihan/RiderProjects/Unitfly/LogSearch/bin/Debug/net6.0/LogSearch.pdb
+/home/alihan/RiderProjects/Unitfly/LogSearch/obj/Debug/net6.0/LogSearch.csproj.AssemblyReference.cache
+/home/alihan/RiderProjects/Unitfly/LogSearch/obj/Debug/net6.0/LogSearch.GeneratedMSBuildEditorConfig.editorconfig
+/home/alihan/RiderProjects/Unitfly/LogSearch/obj/Debug/net6.0/LogSearch.AssemblyInfoInputs.cache
+/home/alihan/RiderProjects/Unitfly/LogSearch/obj/Debug/net6.0/LogSearch.AssemblyInfo.cs
+/home/alihan/RiderProjects/Unitfly/LogSearch/obj/Debug/net6.0/LogSearch.csproj.CoreCompileInputs.cache
+/home/alihan/RiderProjects/Unitfly/LogSearch/obj/Debug/net6.0/LogSearch.dll
+/home/alihan/RiderProjects/Unitfly/LogSearch/obj/Debug/net6.0/refint/LogSearch.dll
+/home/alihan/RiderProjects/Unitfly/LogSearch/obj/Debug/net6.0/LogSearch.pdb
+/home/alihan/RiderProjects/Unitfly/LogSearch/obj/Debug/net6.0/ref/LogSearch.dll

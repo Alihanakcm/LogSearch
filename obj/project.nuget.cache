@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rSVwoV4KX3J3XntYppuVDpd6I8O7rcQUckL69vxmwty3lvzotg+cgpORpeOQok1WoCjKdVJW8DI7ymkvS9ih1Q==",
+  "success": true,
+  "projectFilePath": "/home/alihan/RiderProjects/Unitfly/LogSearch/LogSearch.csproj",
+  "expectedPackageFiles": [
+    "/home/alihan/.nuget/packages/microsoft.netcore.app.ref/6.0.13/microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "/home/alihan/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.13/microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
